@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anc" prefHeight="560.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newbrowser.WebfxmlController">
+   <children>
+      <TextField fx:id="txt" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="625.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="145.0" />
+      <Button fx:id="bt" layoutX="654.0" layoutY="14.0" mnemonicParsing="false" onAction="#handle" prefHeight="25.0" prefWidth="68.0" text="Go" AnchorPane.rightAnchor="62.0" />
+      <WebView fx:id="webView" layoutX="6.0" layoutY="50.0" prefHeight="509.0" prefWidth="784.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+   </children>
+</AnchorPane>
